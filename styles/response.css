@@ -2,6 +2,7 @@
     --brown-first: #865b29;
     --brown-second:#694720;
     --white: rgb(201, 201, 201);
+    --gold: #edc420;
 }
 
 #heading {
@@ -42,7 +43,7 @@ input {
 
 @media (min-width: 1024px) {
     body {
-        background-image: url("/assets/home-background.jpg");
+        background-image: url("../assets/home-background.jpg");
         background-size: cover;
         height: 100vh;
     }
@@ -69,11 +70,29 @@ input {
         font-size: 1.5em;
         text-align: center;
     }
+
+    #ad {
+        padding-top: 140px;
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+        font-family: "Lato", sans-serif;
+        font-weight: 500;
+        font-style: italic;
+        color: whitesmoke;
+        font-size: 0.8em;
+        text-align: center;
+    }
+    
+    a{
+        text-decoration: none;
+        color: var(--gold);
+    }
 }
 
 @media (max-width: 1024px) {
     body {
-        background-image: url("/assets/home-background-phone.jpg");
+        background-image: url("../assets/home-background-phone.jpg");
         height: 100vh;
         background-repeat: no-repeat;
         background-size: cover;
@@ -121,5 +140,23 @@ input {
         font-style: normal;
         font-size: 1.1em;
     }
-}
 
+    #ad {
+        padding-top: 170px;
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+        font-family: "Lato", sans-serif;
+        font-weight: 500;
+        font-style: italic;
+        color: whitesmoke;
+        font-size: 0.7em;
+        text-align: center;
+    }
+    
+    a{
+        text-decoration: none;
+        color: var(--brown-first);
+    }
+
+}
