@@ -7,8 +7,7 @@ Sebuah aplikasi web sederhana untuk mengirimkan ucapan selamat Idul Fitri 1445 H
 
 ## ✨ Fitur Utama
 * **Interaktif & Responsif**: Tampilan yang menyesuaikan dengan perangkat mobile maupun desktop.
-* **Background Music**: Autoplay musik bertema lebaran (dengan opsi toggle audio).
-* **Animasi Smooth**: Menggunakan pustaka animasi untuk transisi elemen yang elegan.
+* **Manajemen Pesan**: Pengiriman pesan antar pengguna hanya dengan memanfaatkan teknologi frontend.
 * **Custom Message**: Pesan ucapan yang dipersonalisasi.
 
 ## 🛠️ Tech Stack
